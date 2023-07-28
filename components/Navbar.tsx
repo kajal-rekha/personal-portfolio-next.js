@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <div className="sm:w-full navbar h-20 fixed top-0 left-0 right-0 shadow-lg flex bg-accant">
+      <div className="sm:w-full navbar h-20 fixed top-0 left-0 right-0 shadow-lg flex">
         <motion.div
           initial={{ y: "-100%" }}
           animate={{ y: 0 }}

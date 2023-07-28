@@ -10,6 +10,7 @@ module.exports = {
       colors: {
         dark: "#21242B",
         accant: "#288994",
+        accant1: "#151c23",
       },
     },
   },
