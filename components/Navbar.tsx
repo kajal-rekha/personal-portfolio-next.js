@@ -17,7 +17,7 @@ const Navbar = () => {
         <nav>
           <Link
             href="/"
-            className="text-xl text-gray-200 font-semibold link-item"
+            className="text-xl text-gray-200 font-semibold link-item tracking-widest"
           >
             KAJAL REKHA
           </Link>
