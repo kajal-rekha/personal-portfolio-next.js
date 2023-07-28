@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* COMMON STYLE */
+.wrapper {
+  @apply container mx-auto px-5 md:px-0;
+}
+
+.section-padding {
+  @apply py-10 md:py-20;
+}
+
+.link-item {
+  @apply relative;
+}
+.link-item::after {
+  @apply content-[""] absolute bottom-0 left-1/2 w-0 h-[1px] bg-gray-200 -translate-x-1/2 duration-300;
+}
+
+.link-item:hover::after {
+  @apply w-full;
+}
